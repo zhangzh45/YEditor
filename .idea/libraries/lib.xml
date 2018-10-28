@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/forms_rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/temporalinfo.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/temporal_yawl_engine_2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/swing-layout-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/temporal_yawl_rs_2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/swing-worker-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xmlParserAPIs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jcalendar-1.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="yawllib">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/yawllib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/yawllib" recursive="false" />
+  </library>
+</component>

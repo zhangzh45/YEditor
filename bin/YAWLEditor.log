@@ -1,0 +1,135 @@
+2018-05-07 10:28:44,045 [WARN ] :- Server returned HTTP response code: 400 for URL: http://localhost:8080/yawlWSInvoker
+2018-05-21 12:13:38,324 [WARN ] :- Server returned HTTP response code: 400 for URL: http://localhost:8080/yawlWSInvoker
+2018-05-21 12:13:56,505 [WARN ] :- Server returned HTTP response code: 400 for URL: http://localhost:8080/yawlWSInvoker
+2018-05-21 12:13:58,522 [WARN ] :- Server returned HTTP response code: 400 for URL: http://localhost:8080/yawlWSInvoker
+2018-05-21 12:15:18,160 [WARN ] :- Server returned HTTP response code: 400 for URL: http://localhost:8080/yawlWSInvoker
+2018-05-21 12:20:21,070 [WARN ] :- Server returned HTTP response code: 400 for URL: http://localhost:8080/yawlWSInvoker
+2018-05-21 13:03:13,320 [WARN ] :- Server returned HTTP response code: 400 for URL: http://localhost:8080/yawlWSInvoker
+2018-05-28 09:17:35,211 [WARN ] :- http://localhost:8080/yawlWSInvoker
+2018-05-28 09:43:45,505 [WARN ] :- http://localhost:8080/yawlWSInvoker
+2018-05-28 09:44:13,735 [WARN ] :- http://localhost:8080/yawlWSInvoker
+2018-05-28 10:09:43,023 [WARN ] :- http://localhost:8080/yawlWSInvoker
+2018-05-28 10:09:43,876 [WARN ] :- http://localhost:8080/yawlWSInvoker
+2018-06-02 10:05:22,550 [WARN ] :- http://localhost:8080/yawlWSInvoker
+2018-06-23 10:36:40,987 [ERROR] :- Error unmarshalling specification from XML.
+java.lang.NullPointerException
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.isBeta2Version(YSpecificationParser.java:255)
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.parseSpecification(YSpecificationParser.java:130)
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.<init>(YSpecificationParser.java:66)
+	at org.yawlfoundation.yawl.unmarshal.YMarshal.buildSpecifications(YMarshal.java:62)
+	at org.yawlfoundation.yawl.unmarshal.YMarshal.unmarshalSpecifications(YMarshal.java:121)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationImporter.importEngineSpecificationAsEngineObjects(EngineSpecificationImporter.java:122)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationImporter.importEngineSpecificationFromFile(EngineSpecificationImporter.java:79)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationHandler.importEngineSpecificationFile(EngineSpecificationHandler.java:101)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationHandler.engineFormatFileImport(EngineSpecificationHandler.java:88)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.AvailableEngineProxyImplementation.engineFormatFileImport(AvailableEngineProxyImplementation.java:78)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.YAWLEngineProxy.engineFormatFileImport(YAWLEngineProxy.java:96)
+	at org.yawlfoundation.yawl.editor.specification.ArchivingThread.processRequestState(ArchivingThread.java:142)
+	at org.yawlfoundation.yawl.editor.specification.ArchivingThread.run(ArchivingThread.java:115)
+2018-06-23 10:36:53,640 [ERROR] :- Error unmarshalling specification from XML.
+java.lang.NullPointerException
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.isBeta2Version(YSpecificationParser.java:255)
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.parseSpecification(YSpecificationParser.java:130)
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.<init>(YSpecificationParser.java:66)
+	at org.yawlfoundation.yawl.unmarshal.YMarshal.buildSpecifications(YMarshal.java:62)
+	at org.yawlfoundation.yawl.unmarshal.YMarshal.unmarshalSpecifications(YMarshal.java:121)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationImporter.importEngineSpecificationAsEngineObjects(EngineSpecificationImporter.java:122)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationImporter.importEngineSpecificationFromFile(EngineSpecificationImporter.java:79)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationHandler.importEngineSpecificationFile(EngineSpecificationHandler.java:101)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationHandler.engineFormatFileImport(EngineSpecificationHandler.java:92)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.AvailableEngineProxyImplementation.engineFormatFileImport(AvailableEngineProxyImplementation.java:82)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.YAWLEngineProxy.engineFormatFileImport(YAWLEngineProxy.java:100)
+	at org.yawlfoundation.yawl.editor.specification.ArchivingThread.processRequestState(ArchivingThread.java:146)
+	at org.yawlfoundation.yawl.editor.specification.ArchivingThread.run(ArchivingThread.java:115)
+2018-06-23 10:38:33,514 [ERROR] :- Error unmarshalling specification from XML.
+java.lang.NullPointerException
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.isBeta2Version(YSpecificationParser.java:255)
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.parseSpecification(YSpecificationParser.java:130)
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.<init>(YSpecificationParser.java:66)
+	at org.yawlfoundation.yawl.unmarshal.YMarshal.buildSpecifications(YMarshal.java:62)
+	at org.yawlfoundation.yawl.unmarshal.YMarshal.unmarshalSpecifications(YMarshal.java:121)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationImporter.importEngineSpecificationAsEngineObjects(EngineSpecificationImporter.java:122)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationImporter.importEngineSpecificationFromFile(EngineSpecificationImporter.java:79)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationHandler.importEngineSpecificationFile(EngineSpecificationHandler.java:101)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationHandler.engineFormatFileImport(EngineSpecificationHandler.java:88)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.AvailableEngineProxyImplementation.engineFormatFileImport(AvailableEngineProxyImplementation.java:78)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.YAWLEngineProxy.engineFormatFileImport(YAWLEngineProxy.java:96)
+	at org.yawlfoundation.yawl.editor.specification.ArchivingThread.processRequestState(ArchivingThread.java:142)
+	at org.yawlfoundation.yawl.editor.specification.ArchivingThread.run(ArchivingThread.java:115)
+2018-06-25 10:07:15,182 [ERROR] :- Error unmarshalling specification from XML.
+java.lang.NullPointerException
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.isBeta2Version(YSpecificationParser.java:255)
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.parseSpecification(YSpecificationParser.java:130)
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.<init>(YSpecificationParser.java:66)
+	at org.yawlfoundation.yawl.unmarshal.YMarshal.buildSpecifications(YMarshal.java:62)
+	at org.yawlfoundation.yawl.unmarshal.YMarshal.unmarshalSpecifications(YMarshal.java:121)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationImporter.importEngineSpecificationAsEngineObjects(EngineSpecificationImporter.java:122)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationImporter.importEngineSpecificationFromFile(EngineSpecificationImporter.java:79)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationHandler.importEngineSpecificationFile(EngineSpecificationHandler.java:101)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationHandler.engineFormatFileImport(EngineSpecificationHandler.java:88)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.AvailableEngineProxyImplementation.engineFormatFileImport(AvailableEngineProxyImplementation.java:78)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.YAWLEngineProxy.engineFormatFileImport(YAWLEngineProxy.java:96)
+	at org.yawlfoundation.yawl.editor.specification.ArchivingThread.processRequestState(ArchivingThread.java:142)
+	at org.yawlfoundation.yawl.editor.specification.ArchivingThread.run(ArchivingThread.java:115)
+2018-06-25 10:09:41,528 [ERROR] :- Error unmarshalling specification from XML.
+java.lang.NullPointerException
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.isBeta2Version(YSpecificationParser.java:255)
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.parseSpecification(YSpecificationParser.java:130)
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.<init>(YSpecificationParser.java:66)
+	at org.yawlfoundation.yawl.unmarshal.YMarshal.buildSpecifications(YMarshal.java:62)
+	at org.yawlfoundation.yawl.unmarshal.YMarshal.unmarshalSpecifications(YMarshal.java:121)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationImporter.importEngineSpecificationAsEngineObjects(EngineSpecificationImporter.java:122)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationImporter.importEngineSpecificationFromFile(EngineSpecificationImporter.java:79)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationHandler.importEngineSpecificationFile(EngineSpecificationHandler.java:101)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationHandler.engineFormatFileImport(EngineSpecificationHandler.java:92)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.AvailableEngineProxyImplementation.engineFormatFileImport(AvailableEngineProxyImplementation.java:82)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.YAWLEngineProxy.engineFormatFileImport(YAWLEngineProxy.java:100)
+	at org.yawlfoundation.yawl.editor.specification.ArchivingThread.processRequestState(ArchivingThread.java:146)
+	at org.yawlfoundation.yawl.editor.specification.ArchivingThread.run(ArchivingThread.java:115)
+2018-06-25 10:25:31,955 [ERROR] :- Error unmarshalling specification from XML.
+java.lang.NullPointerException
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.isBeta2Version(YSpecificationParser.java:255)
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.parseSpecification(YSpecificationParser.java:130)
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.<init>(YSpecificationParser.java:66)
+	at org.yawlfoundation.yawl.unmarshal.YMarshal.buildSpecifications(YMarshal.java:62)
+	at org.yawlfoundation.yawl.unmarshal.YMarshal.unmarshalSpecifications(YMarshal.java:121)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationImporter.importEngineSpecificationAsEngineObjects(EngineSpecificationImporter.java:122)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationImporter.importEngineSpecificationFromFile(EngineSpecificationImporter.java:79)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationHandler.importEngineSpecificationFile(EngineSpecificationHandler.java:101)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationHandler.engineFormatFileImport(EngineSpecificationHandler.java:88)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.AvailableEngineProxyImplementation.engineFormatFileImport(AvailableEngineProxyImplementation.java:78)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.YAWLEngineProxy.engineFormatFileImport(YAWLEngineProxy.java:96)
+	at org.yawlfoundation.yawl.editor.specification.ArchivingThread.processRequestState(ArchivingThread.java:142)
+	at org.yawlfoundation.yawl.editor.specification.ArchivingThread.run(ArchivingThread.java:115)
+2018-06-25 10:25:45,133 [ERROR] :- Error unmarshalling specification from XML.
+java.lang.NullPointerException
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.isBeta2Version(YSpecificationParser.java:255)
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.parseSpecification(YSpecificationParser.java:130)
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.<init>(YSpecificationParser.java:66)
+	at org.yawlfoundation.yawl.unmarshal.YMarshal.buildSpecifications(YMarshal.java:62)
+	at org.yawlfoundation.yawl.unmarshal.YMarshal.unmarshalSpecifications(YMarshal.java:121)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationImporter.importEngineSpecificationAsEngineObjects(EngineSpecificationImporter.java:122)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationImporter.importEngineSpecificationFromFile(EngineSpecificationImporter.java:79)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationHandler.importEngineSpecificationFile(EngineSpecificationHandler.java:101)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationHandler.engineFormatFileImport(EngineSpecificationHandler.java:92)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.AvailableEngineProxyImplementation.engineFormatFileImport(AvailableEngineProxyImplementation.java:82)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.YAWLEngineProxy.engineFormatFileImport(YAWLEngineProxy.java:100)
+	at org.yawlfoundation.yawl.editor.specification.ArchivingThread.processRequestState(ArchivingThread.java:146)
+	at org.yawlfoundation.yawl.editor.specification.ArchivingThread.run(ArchivingThread.java:115)
+2018-06-25 10:32:53,484 [ERROR] :- Error unmarshalling specification from XML.
+java.lang.NullPointerException
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.isBeta2Version(YSpecificationParser.java:255)
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.parseSpecification(YSpecificationParser.java:130)
+	at org.yawlfoundation.yawl.unmarshal.YSpecificationParser.<init>(YSpecificationParser.java:66)
+	at org.yawlfoundation.yawl.unmarshal.YMarshal.buildSpecifications(YMarshal.java:62)
+	at org.yawlfoundation.yawl.unmarshal.YMarshal.unmarshalSpecifications(YMarshal.java:121)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationImporter.importEngineSpecificationAsEngineObjects(EngineSpecificationImporter.java:122)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationImporter.importEngineSpecificationFromFile(EngineSpecificationImporter.java:79)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationHandler.importEngineSpecificationFile(EngineSpecificationHandler.java:101)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.EngineSpecificationHandler.engineFormatFileImport(EngineSpecificationHandler.java:88)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.AvailableEngineProxyImplementation.engineFormatFileImport(AvailableEngineProxyImplementation.java:78)
+	at org.yawlfoundation.yawl.editor.thirdparty.engine.YAWLEngineProxy.engineFormatFileImport(YAWLEngineProxy.java:96)
+	at org.yawlfoundation.yawl.editor.specification.ArchivingThread.processRequestState(ArchivingThread.java:142)
+	at org.yawlfoundation.yawl.editor.specification.ArchivingThread.run(ArchivingThread.java:115)
+2018-06-25 10:41:37,994 [WARN ] :- http://localhost:8080/yawlWSInvoker
+2018-06-25 10:41:47,122 [WARN ] :- http://localhost:8080/yawlWSInvoker

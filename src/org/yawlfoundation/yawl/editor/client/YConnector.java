@@ -299,56 +299,56 @@ public class YConnector {
     private static List<DataVariable> mergeParameters(List<YParameter> params) {
         List<DataVariable> varList = new ArrayList<DataVariable>();
 
-        // map params to data variables
-        for (YParameter param : params) {
-            DataVariable editorVariable = new DataVariable();
-            editorVariable.setDataType(param.getDataTypeName());
-            editorVariable.setName(param.getName());
-            editorVariable.setInitialValue(param.getInitialValue());
-            editorVariable.setUserDefined(false);
-            if (param.isInput()) {
-                editorVariable.setUsage(DataVariable.USAGE_INPUT_ONLY);
-            }
-            if (param.isOutput()) {
-                editorVariable.setUsage(DataVariable.USAGE_OUTPUT_ONLY);
-            }
-            if (param.isOptional()) {
-                 editorVariable.setAttribute("optional", "true");
-             }
+                // map params to data variables
+                for (YParameter param : params) {
+                    DataVariable editorVariable = new DataVariable();
+                    editorVariable.setDataType(param.getDataTypeName());
+                    editorVariable.setName(param.getName());
+                    editorVariable.setInitialValue(param.getInitialValue());
+                    editorVariable.setUserDefined(false);
+                    if (param.isInput()) {
+                        editorVariable.setUsage(DataVariable.USAGE_INPUT_ONLY);
+                    }
+                    if (param.isOutput()) {
+                        editorVariable.setUsage(DataVariable.USAGE_OUTPUT_ONLY);
+                    }
+                    if (param.isOptional()) {
+                        editorVariable.setAttribute("optional", "true");
+                    }
 
-            varList.add(editorVariable);
-        }
-
-        // merge matching input & output vars into one I&O var
-        List<DataVariable> inputList = new ArrayList<DataVariable>();
-        List<DataVariable> outputList = new ArrayList<DataVariable>();
-        for (DataVariable variable : varList) {
-            if (variable.getUsage() == DataVariable.USAGE_INPUT_ONLY) {
-                inputList.add(variable);
-            }
-            else {
-                outputList.add(variable);
-            }
-        }
-        for (DataVariable inputVar : inputList) {
-            for (DataVariable outputVar : outputList) {
-                if (inputVar.equalsIgnoreUsage(outputVar)) {
-                    inputVar.setUsage(DataVariable.USAGE_INPUT_AND_OUTPUT);
-                    varList.remove(outputVar);
+                    varList.add(editorVariable);
                 }
+
+                // merge matching input & output vars into one I&O var
+                List<DataVariable> inputList = new ArrayList<DataVariable>();
+                List<DataVariable> outputList = new ArrayList<DataVariable>();
+                for (DataVariable variable : varList) {
+                    if (variable.getUsage() == DataVariable.USAGE_INPUT_ONLY) {
+                        inputList.add(variable);
+                    }
+                    else {
+                        outputList.add(variable);
+                    }
+                }
+                for (DataVariable inputVar : inputList) {
+                    for (DataVariable outputVar : outputList) {
+                        if (inputVar.equalsIgnoreUsage(outputVar)) {
+                            inputVar.setUsage(DataVariable.USAGE_INPUT_AND_OUTPUT);
+                            varList.remove(outputVar);
+                        }
+                    }
+                }
+                return varList;
             }
-        }
-        return varList;
-    }
 
 
-    private static URL makeURL(String url) {
-        if (url != null) {
-            try {
-                return new URL(url);
-            }
-            catch (MalformedURLException mue) {
-                // fallthrough to null
+            private static URL makeURL(String url) {
+                if (url != null) {
+                    try {
+                        return new URL(url);
+                    }
+                    catch (MalformedURLException mue) {
+                        // fallthrough to null
             }
         }
         return null;
